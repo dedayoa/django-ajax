@@ -54,7 +54,7 @@ Through Github:
 
 .. code:: sh
 
-    pip install -e git://github.com/yceruto/django-ajax#egg=djangoajax
+    pip install -e git://github.com/dedayoa/django-ajax#egg=djangoajax
 
 or simply with:
 
