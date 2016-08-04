@@ -50,6 +50,9 @@ var ajax = function (url, options) {
         url: url,
         type: options.method || 'get',
         data: options.data,
+        processData: options.processData,
+        contentType: options.contentType,
+        cache: options.cache,
         beforeSend: function (xhr, settings) {
             if (!csrfSafeMethod(settings.type) && sameOrigin(settings.url)) {
                 // Send the token to same-origin, relative URLs only.
